@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="freecodecamp.css">
+</head>
+<body>
+    <img src="backG.PNG" alt="">
+    <!---Header Top part-->
+    <header>
+      <h1>  freeCodeCamp Survey Form</h1>
+      <h4>Please help us improve our platform through this survey. Thank You</h4>
+    </header>
+     <!---Main Form-->
+     <div id="user">
+        <Form id="infos">
+            <label for="name" class="forms">Name</label>
+            <br>
+            <input class="inputs" type="text" placeholder="Enter Your Name" required>
+            <br>
+            <br>
+            <label for="mail" class="forms">Email</label>
+    
+            <br>
+            <input class="inputs" type="email" placeholder="Enter Email" required  required>
+            <br>
+            <br>
+            <label for="age" class="forms">Age</label>
+            <br>
+            <input class="inputs" type="number" placeholder="Age" required>
+            <br>
+            <br>
+              <!--Select Option-->
+            <label for="options" class="forms">Which option best describe your current role?</label>
+            <br>
+            <select name="roles" id="" required>
+                <option value="">Select</option>
+                <option value="">Student</option>
+                <option value="">Intern</option>
+                <option value="">Working Professional</option>
+                <option value="">Others</option>
+            </select>
+            <br>
+            <br>
+            <br>
+    
+              <!--Recommendation part-->
+            <label for="recommend" class="forms">Would You Recommend freeCodeCamp?</label>
+    
+            <br>
+            <input type="radio" name="choose" required> Definitely
+            <br>
+            <input type="radio" name="choose" required> Maybe
+            <br>
+            <input type="radio" name="choose" required> Not Sure
+            <br>
+            <br>
+            <br>
+              <!--Subjects-->
+            <label for="feature" class="forms">What is your favorite feature of freeCodeCamp?</label>
+            <br>
+            <div>
+                <input type="checkbox" name="" id="">Front-End Projects
+                <br>
+                <input type="checkbox" name="" id="">Back-End Projects
+                <br>
+                <input type="checkbox" name="" id="">Data Visualization
+                <br>
+                <input type="checkbox" name="" id="">Quality Assurance Certification
+                <br>
+                <input type="checkbox" name="" id="">Relational Database Certification
+                <br>
+                <input type="checkbox" name="" id="">Information Security Certification
+                <br>
+                <input type="checkbox" name="" id="">Data Analysis with Python Certification
+                <br>
+                <input type="checkbox" name="" id="">Machine Learning with Python Certification
+                <br>
+                <input type="checkbox" name="" id="">A2 English for Developers
+                <br>
+                <input type="checkbox" name="" id="">Coding Interview Prep 
+                <br>
+                <input type="checkbox" name="" id="">Others
+                <br>
+                <br>
+                <br>
+            </div>
+              <!--Suggestion part-->
+            <label for="suggestions" class="forms">Any Comments and Suggestions:</label>
+            <br>
+            <textarea name="" id="" cols="50" rows="8"></textarea>
+            <br>
+            <br>
+              <!--Submit Button-->
+            <button type="submit" id="button">Submit</button>
+         
+        </Form>
+     </div>
+    
+
+</body>
+</html>
